@@ -1,1 +1,2 @@
 # LushoGridExample
+#how to use
