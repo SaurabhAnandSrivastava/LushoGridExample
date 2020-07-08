@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *dateStr = @"1992-05-03 09:05";
+    NSString *dateStr = @"1992-04-03 09:05";
        NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
        // set the date format related to what the string already you have
        [dateFormat setDateFormat:@"yyyy-MM-dd HH:mm"];
