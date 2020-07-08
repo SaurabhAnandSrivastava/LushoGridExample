@@ -17,7 +17,7 @@ Init the script
 LushoGridScript *script=[[LushoGridScript alloc] init];
 ```
 
-Pass your view where you want to appear Lusho Grid 
+Pass your view where you want to appear Lusho Grid and pass your date 
 
 ```objective-c
  [script genrateLushoGridWhereDate:date andBaseView:YOUR VIEW];
