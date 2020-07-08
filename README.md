@@ -1,6 +1,11 @@
-# LushoGridExample
-how to use
-Add LushoGridScript folder to your project
-Import file #import "LushoGridScript.h"
-init the script 
+# Project Title
+
+One Paragraph of project description goes here
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
 
