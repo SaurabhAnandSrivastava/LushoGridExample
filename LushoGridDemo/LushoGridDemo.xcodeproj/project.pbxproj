@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72468F0E24B5ACB80006A3AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72468F0D24B5ACB80006A3AD /* AppDelegate.m */; };
+		72468F1124B5ACB80006A3AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72468F1024B5ACB80006A3AD /* SceneDelegate.m */; };
+		72468F1424B5ACB80006A3AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72468F1324B5ACB80006A3AD /* ViewController.m */; };
+		72468F1724B5ACB80006A3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72468F1524B5ACB80006A3AD /* Main.storyboard */; };
+		72468F1924B5ACBA0006A3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72468F1824B5ACBA0006A3AD /* Assets.xcassets */; };
+		72468F1C24B5ACBA0006A3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72468F1A24B5ACBA0006A3AD /* LaunchScreen.storyboard */; };
+		72468F1F24B5ACBA0006A3AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72468F1E24B5ACBA0006A3AD /* main.m */; };
+		72468F2924B5ACBB0006A3AD /* LushoGridDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72468F2824B5ACBB0006A3AD /* LushoGridDemoTests.m */; };
+		72468F3424B5ACBB0006A3AD /* LushoGridDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72468F3324B5ACBB0006A3AD /* LushoGridDemoUITests.m */; };
+		72468F4424B5ACF90006A3AD /* LushoGridScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 72468F4324B5ACF90006A3AD /* LushoGridScript.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72468F2524B5ACBB0006A3AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72468F0124B5ACB80006A3AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72468F0824B5ACB80006A3AD;
+			remoteInfo = LushoGridDemo;
+		};
+		72468F3024B5ACBB0006A3AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72468F0124B5ACB80006A3AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72468F0824B5ACB80006A3AD;
+			remoteInfo = LushoGridDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72468F0924B5ACB80006A3AD /* LushoGridDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LushoGridDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72468F0C24B5ACB80006A3AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72468F0D24B5ACB80006A3AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72468F0F24B5ACB80006A3AD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		72468F1024B5ACB80006A3AD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		72468F1224B5ACB80006A3AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72468F1324B5ACB80006A3AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72468F1624B5ACB80006A3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72468F1824B5ACBA0006A3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72468F1B24B5ACBA0006A3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72468F1D24B5ACBA0006A3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72468F1E24B5ACBA0006A3AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72468F2424B5ACBB0006A3AD /* LushoGridDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LushoGridDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72468F2824B5ACBB0006A3AD /* LushoGridDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LushoGridDemoTests.m; sourceTree = "<group>"; };
+		72468F2A24B5ACBB0006A3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72468F2F24B5ACBB0006A3AD /* LushoGridDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LushoGridDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72468F3324B5ACBB0006A3AD /* LushoGridDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LushoGridDemoUITests.m; sourceTree = "<group>"; };
+		72468F3524B5ACBB0006A3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72468F4224B5ACF90006A3AD /* LushoGridScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LushoGridScript.h; sourceTree = "<group>"; };
+		72468F4324B5ACF90006A3AD /* LushoGridScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LushoGridScript.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72468F0624B5ACB80006A3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72468F2124B5ACBB0006A3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72468F2C24B5ACBB0006A3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72468F0024B5ACB80006A3AD = {
+			isa = PBXGroup;
+			children = (
+				72468F0B24B5ACB80006A3AD /* LushoGridDemo */,
+				72468F2724B5ACBB0006A3AD /* LushoGridDemoTests */,
+				72468F3224B5ACBB0006A3AD /* LushoGridDemoUITests */,
+				72468F0A24B5ACB80006A3AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72468F0A24B5ACB80006A3AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72468F0924B5ACB80006A3AD /* LushoGridDemo.app */,
+				72468F2424B5ACBB0006A3AD /* LushoGridDemoTests.xctest */,
+				72468F2F24B5ACBB0006A3AD /* LushoGridDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72468F0B24B5ACB80006A3AD /* LushoGridDemo */ = {
+			isa = PBXGroup;
+			children = (
+				72468F4124B5ACE00006A3AD /* LushoGridScript */,
+				72468F0C24B5ACB80006A3AD /* AppDelegate.h */,
+				72468F0D24B5ACB80006A3AD /* AppDelegate.m */,
+				72468F0F24B5ACB80006A3AD /* SceneDelegate.h */,
+				72468F1024B5ACB80006A3AD /* SceneDelegate.m */,
+				72468F1224B5ACB80006A3AD /* ViewController.h */,
+				72468F1324B5ACB80006A3AD /* ViewController.m */,
+				72468F1524B5ACB80006A3AD /* Main.storyboard */,
+				72468F1824B5ACBA0006A3AD /* Assets.xcassets */,
+				72468F1A24B5ACBA0006A3AD /* LaunchScreen.storyboard */,
+				72468F1D24B5ACBA0006A3AD /* Info.plist */,
+				72468F1E24B5ACBA0006A3AD /* main.m */,
+			);
+			path = LushoGridDemo;
+			sourceTree = "<group>";
+		};
+		72468F2724B5ACBB0006A3AD /* LushoGridDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				72468F2824B5ACBB0006A3AD /* LushoGridDemoTests.m */,
+				72468F2A24B5ACBB0006A3AD /* Info.plist */,
+			);
+			path = LushoGridDemoTests;
+			sourceTree = "<group>";
+		};
+		72468F3224B5ACBB0006A3AD /* LushoGridDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72468F3324B5ACBB0006A3AD /* LushoGridDemoUITests.m */,
+				72468F3524B5ACBB0006A3AD /* Info.plist */,
+			);
+			path = LushoGridDemoUITests;
+			sourceTree = "<group>";
+		};
+		72468F4124B5ACE00006A3AD /* LushoGridScript */ = {
+			isa = PBXGroup;
+			children = (
+				72468F4224B5ACF90006A3AD /* LushoGridScript.h */,
+				72468F4324B5ACF90006A3AD /* LushoGridScript.m */,
+			);
+			path = LushoGridScript;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72468F0824B5ACB80006A3AD /* LushoGridDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72468F3824B5ACBB0006A3AD /* Build configuration list for PBXNativeTarget "LushoGridDemo" */;
+			buildPhases = (
+				72468F0524B5ACB80006A3AD /* Sources */,
+				72468F0624B5ACB80006A3AD /* Frameworks */,
+				72468F0724B5ACB80006A3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LushoGridDemo;
+			productName = LushoGridDemo;
+			productReference = 72468F0924B5ACB80006A3AD /* LushoGridDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72468F2324B5ACBB0006A3AD /* LushoGridDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72468F3B24B5ACBB0006A3AD /* Build configuration list for PBXNativeTarget "LushoGridDemoTests" */;
+			buildPhases = (
+				72468F2024B5ACBB0006A3AD /* Sources */,
+				72468F2124B5ACBB0006A3AD /* Frameworks */,
+				72468F2224B5ACBB0006A3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72468F2624B5ACBB0006A3AD /* PBXTargetDependency */,
+			);
+			name = LushoGridDemoTests;
+			productName = LushoGridDemoTests;
+			productReference = 72468F2424B5ACBB0006A3AD /* LushoGridDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72468F2E24B5ACBB0006A3AD /* LushoGridDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72468F3E24B5ACBB0006A3AD /* Build configuration list for PBXNativeTarget "LushoGridDemoUITests" */;
+			buildPhases = (
+				72468F2B24B5ACBB0006A3AD /* Sources */,
+				72468F2C24B5ACBB0006A3AD /* Frameworks */,
+				72468F2D24B5ACBB0006A3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72468F3124B5ACBB0006A3AD /* PBXTargetDependency */,
+			);
+			name = LushoGridDemoUITests;
+			productName = LushoGridDemoUITests;
+			productReference = 72468F2F24B5ACBB0006A3AD /* LushoGridDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72468F0124B5ACB80006A3AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Saurabh Srivastav";
+				TargetAttributes = {
+					72468F0824B5ACB80006A3AD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					72468F2324B5ACBB0006A3AD = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 72468F0824B5ACB80006A3AD;
+					};
+					72468F2E24B5ACBB0006A3AD = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 72468F0824B5ACB80006A3AD;
+					};
+				};
+			};
+			buildConfigurationList = 72468F0424B5ACB80006A3AD /* Build configuration list for PBXProject "LushoGridDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72468F0024B5ACB80006A3AD;
+			productRefGroup = 72468F0A24B5ACB80006A3AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72468F0824B5ACB80006A3AD /* LushoGridDemo */,
+				72468F2324B5ACBB0006A3AD /* LushoGridDemoTests */,
+				72468F2E24B5ACBB0006A3AD /* LushoGridDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72468F0724B5ACB80006A3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72468F1C24B5ACBA0006A3AD /* LaunchScreen.storyboard in Resources */,
+				72468F1924B5ACBA0006A3AD /* Assets.xcassets in Resources */,
+				72468F1724B5ACB80006A3AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72468F2224B5ACBB0006A3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72468F2D24B5ACBB0006A3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72468F0524B5ACB80006A3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72468F4424B5ACF90006A3AD /* LushoGridScript.m in Sources */,
+				72468F1424B5ACB80006A3AD /* ViewController.m in Sources */,
+				72468F0E24B5ACB80006A3AD /* AppDelegate.m in Sources */,
+				72468F1F24B5ACBA0006A3AD /* main.m in Sources */,
+				72468F1124B5ACB80006A3AD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72468F2024B5ACBB0006A3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72468F2924B5ACBB0006A3AD /* LushoGridDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72468F2B24B5ACBB0006A3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72468F3424B5ACBB0006A3AD /* LushoGridDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72468F2624B5ACBB0006A3AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72468F0824B5ACB80006A3AD /* LushoGridDemo */;
+			targetProxy = 72468F2524B5ACBB0006A3AD /* PBXContainerItemProxy */;
+		};
+		72468F3124B5ACBB0006A3AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72468F0824B5ACB80006A3AD /* LushoGridDemo */;
+			targetProxy = 72468F3024B5ACBB0006A3AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72468F1524B5ACB80006A3AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72468F1624B5ACB80006A3AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72468F1A24B5ACBA0006A3AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72468F1B24B5ACBA0006A3AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72468F3624B5ACBB0006A3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72468F3724B5ACBB0006A3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72468F3924B5ACBB0006A3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6FM7A779;
+				INFOPLIST_FILE = LushoGridDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siritest.LushoGridDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72468F3A24B5ACBB0006A3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6FM7A779;
+				INFOPLIST_FILE = LushoGridDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siritest.LushoGridDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72468F3C24B5ACBB0006A3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6FM7A779;
+				INFOPLIST_FILE = LushoGridDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siritest.LushoGridDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LushoGridDemo.app/LushoGridDemo";
+			};
+			name = Debug;
+		};
+		72468F3D24B5ACBB0006A3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6FM7A779;
+				INFOPLIST_FILE = LushoGridDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siritest.LushoGridDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LushoGridDemo.app/LushoGridDemo";
+			};
+			name = Release;
+		};
+		72468F3F24B5ACBB0006A3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6FM7A779;
+				INFOPLIST_FILE = LushoGridDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siritest.LushoGridDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LushoGridDemo;
+			};
+			name = Debug;
+		};
+		72468F4024B5ACBB0006A3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6FM7A779;
+				INFOPLIST_FILE = LushoGridDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siritest.LushoGridDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LushoGridDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72468F0424B5ACB80006A3AD /* Build configuration list for PBXProject "LushoGridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72468F3624B5ACBB0006A3AD /* Debug */,
+				72468F3724B5ACBB0006A3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72468F3824B5ACBB0006A3AD /* Build configuration list for PBXNativeTarget "LushoGridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72468F3924B5ACBB0006A3AD /* Debug */,
+				72468F3A24B5ACBB0006A3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72468F3B24B5ACBB0006A3AD /* Build configuration list for PBXNativeTarget "LushoGridDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72468F3C24B5ACBB0006A3AD /* Debug */,
+				72468F3D24B5ACBB0006A3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72468F3E24B5ACBB0006A3AD /* Build configuration list for PBXNativeTarget "LushoGridDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72468F3F24B5ACBB0006A3AD /* Debug */,
+				72468F4024B5ACBB0006A3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72468F0124B5ACB80006A3AD /* Project object */;
+}
