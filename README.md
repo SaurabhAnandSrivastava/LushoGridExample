@@ -23,4 +23,41 @@ Pass your view where you want to appear Lusho Grid
  [script genrateLushoGridWhereDate:date andBaseView:YOUR VIEW];
 ```
 
-make 
+make sure your view is squar for best result 
+
+
+
+
+## Delegates 
+
+Enable delegates 
+
+```objective-c
+script.delegate=self;
+```
+use these delegates 
+
+```objective-c
+-(void)didSuccessFullyMadeLushoGridWithFrequency:(NSMutableDictionary *)frequencyDic andConductor:(int)conductor andDriver:(int)driver andPlanes:(NSMutableDictionary *)planeDic;
+-(void)didFailLushoGrid:(NSString *)error;
+```
+
+Also you can modify your grid by altering these variables 
+
+```objective-c
+shouldShowGrid
+shouldDrawLine
+shouldAnimateLable;
+fontSize
+numberColor
+gridLineColor
+shouldShowPlanes
+lineWidth
+conductorDriverColor
+```
+
+Example
+```objective-c
+script.lineWidth=1;
+```
+![Image](https://github.com/SaurabhAnandSrivastava/LushoGridExample/blob/master/Demo.png)
